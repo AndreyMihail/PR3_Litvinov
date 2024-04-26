@@ -9,18 +9,7 @@
             bool isA = false;
             bool isB = false;
 
-            while (true)
-            {
-                Console.WriteLine("Меню:");
-                Console.WriteLine("1. Ввести А");
-                Console.WriteLine("2. Ввести В");
-                Console.WriteLine("3. Выполнить операцию \"+\"");
-                Console.WriteLine("4. Выполнить операцию \"-\"");
-                Console.WriteLine("5. Выполнить операцию \"*\"");
-                Console.WriteLine("6. Выполнить операцию \"/\"");
-                Console.WriteLine("0. Выход");
-
-                Console.Write("Выберите пункт меню: ");
+            
                 string choice = Console.ReadLine();
 
                 switch (choice)
@@ -92,4 +81,3 @@
             }
         }
     }
-}
